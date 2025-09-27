@@ -1,0 +1,14 @@
+model:
+  name: resnet18
+  hidden_dim: 128
+training:
+  batch_size: 64
+  epochs: 10
+  lr: 0.001
+  optimizer: adam
+data:
+  dataset: mnist
+  root: ./data
+logging:
+  project: mini-orchestrator
+  experiment: baseline
